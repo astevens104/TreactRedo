@@ -26,6 +26,22 @@ a {
     color: #242424;
 }
 
+h1 {
+    color: #242424;
+    font-size: 56px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+p {
+    color: #242424;
+    line-height: 1.5;
+}
+
+.cobalt {
+    color: #6415FF;
+}
+
 
 /* NAVIGATION */
 
@@ -77,4 +93,46 @@ a {
     color: #fff;
     font-size: 18px;
     text-decoration: none;
+}
+
+/*  SPLASH  */
+
+.splash__wrapper {
+    display: flex;
+}
+
+.splash__description--wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    max-width: 480px;
+    justify-content: center;
+}
+
+.splash__description {
+    margin: 16px 0;
+}
+
+
+
+.corp-list__para {
+    margin-top: 16px;
+    color: #a0aec0;
+}
+
+.corp-list__img--wrapper {
+    margin: 8px 0;  
+}
+
+.corp-list__img {
+    width: 100%;
+}
+
+.splash__img--wrapper {
+    width: 60%;
+    padding-left: 48px;
+}
+
+.splash__img {
+    width: 100%;
 }
