@@ -140,13 +140,13 @@ p {
     border-radius: 9999px;
     border: 2px solid #a0aec0;
     font-size: 20px;
-    padding: 8px 24px 8px 24px;
+    padding: 8px 24px 8px 160px;
 }
 
 .btn__get-started {
     position: absolute;
     top: 2px;
-    right: 21%;
+    left: 2px;
     border-radius: 9999px;
     border: none;
     background-color: #6415FF;
@@ -223,6 +223,11 @@ p {
 }
 
 .service__description {
-    margin: 0 8px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 16px;
 }
 
+.feature__title {
+ margin-bottom: 8px;   
+}
