@@ -28,7 +28,7 @@ a {
 
 h1 {
     color: #242424;
-    font-size: 56px;
+    font-size: 48px;
     margin-bottom: 16px;
     font-weight: bold;
 }
@@ -230,4 +230,44 @@ p {
 
 .feature__title {
  margin-bottom: 8px;   
+}
+
+/*  QUALITY  */
+
+.quality__row{
+    display: flex;
+}
+
+.quality__description {
+    padding: 0 28px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section__title {
+    margin-bottom: 8px;
+}
+
+.quality__title {
+    margin-bottom: 8px;
+}
+
+.learn-more {
+    background-color: #6415FF;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 9999px;
+    max-width: 160px;
+    margin-top: 16px;
+    padding: 8px;
+}
+
+.quality__img--wrapper {
+    width: 50%;
+}
+
+.quality__img {
+    width: 100%;
 }
