@@ -40,6 +40,7 @@ h1 {
 p {
     color: #242424;
     line-height: 1.5;
+    font-size: 14px;
 }
 
 .cobalt {
@@ -313,10 +314,51 @@ p {
 }
 
 .step__title {
+    color: #243e63;
     font-size: 16px;
     margin: 8px 0;
 }
 
 .step__description {
     color: #718096;
+}
+
+/*  VALUES  */
+
+.values__row {
+    display: flex;
+}
+
+.values__wrapper {
+    width: 50%;
+}
+
+.values__description {
+    color: #7c8b81;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.sub-heading__wrapper {
+    display: flex;
+}
+
+.sub-heading__title--wrapper {
+    display: flex;
+}
+
+.sub-heading__title--icon {
+    background-color: #9ae6b4;
+    
+    width: 25px;
+    border-radius: 50%;
+}
+
+.values__img--wrapper {
+    width: 50%;
+}
+
+.values__img {
+    width: 100%;
 }
