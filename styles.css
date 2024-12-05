@@ -261,6 +261,11 @@ p {
     padding: 8px;
 }
 
+.learn-more:hover {
+    background-color: #0416ff;
+    cursor: pointer;
+}
+
 .quality__img--wrapper {
     width: 50%;
 }
@@ -435,6 +440,49 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+
+.plan__personal,
+.plan__enterprise {
+    border-radius: 8px;
+    border-top: none;
+    border-left: 1px solid #a0aec0;
+    border-right: 1px solid #a0aec0;
+    border-bottom: 1px solid #a0aec0;
+}
+
+.plan__personal--topper,
+.plan__enterprise--topper {
+    height: 8px;
+}
+
+.plan__personal--topper {
+    height: 16px;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.plan__enterprise--topper {
+    height: 16px;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.plan__business {
+    height: calc(100vh + 8px);
+    border-radius: 8px;
+    border: 1px solid #a0aec0;
 }
 
 .plan__header {
@@ -492,12 +540,15 @@ p {
     border-radius: 20px;
 }
 
-.personal__buy-now {
-    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+.buy-now__btn:hover {
+    cursor: pointer;
+    transform: translate(3px, -3px);
+    box-shadow: 5px 0 20px #7c8ba1;
+    transition: all 300ms ease;
 }
 
-.plan__personal {
-
+.personal__buy-now {
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
 .plan__business {
@@ -516,10 +567,10 @@ p {
     color: #fff;
 }
 
-.plan__enterprise {
-    
-}
-
 .enterprise__buy-now {
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.buy-now__btn {
+    border: none;
 }
