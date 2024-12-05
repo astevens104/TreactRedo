@@ -49,7 +49,16 @@ p {
 .section__title {
     font-size: 16px;
     color: #6415FF;
+}
 
+.section__title--description {
+    margin: 16px 0;
+    font-weight: bold;
+}
+
+.sub-title__heading {
+    color: #243e63;
+    font-size: 20px;
 }
 
 /* NAVIGATION */
@@ -359,6 +368,7 @@ p {
     width: 30px;
     height: 30px;
     border-radius: 50%;
+    margin-right: 16px;
 }
 
 .affordable__icon--wrapper {
@@ -382,12 +392,6 @@ p {
     color: #cc4141;
     position: absolute;
     margin-bottom: 8px;
-}
-
-.value__title {
-    margin-left: 16px;
-    color: #243e63;
-    font-size: 20px;
 }
 
 .value__description {
@@ -577,4 +581,97 @@ p {
 
 .buy-now__btn {
     border: none;
+}
+
+/*  TESTIMONIALS */
+
+.testimonials__wrapper {
+    display: flex;
+}
+
+.testimonials__img--wrapper {
+    width: 50%;
+}
+
+.testimonials__img {
+    width: 100%;
+}
+
+.testimonials__description {
+    width: 50%;
+    height: 100vh;
+    padding: 0 48px;
+}
+
+.testimonial__description {
+    margin: 16px 0;
+}
+
+.rating__icon {
+    color: #fcb53b;
+    margin-bottom: 16px;
+}
+
+.testimonial__para {
+    margin: 16px 0;
+}
+
+.testimonial__client {
+    display: flex;
+    justify-content: space-between;  
+}
+
+.client__info {
+    display: flex;
+    align-items: center;
+}
+
+.client__img-wrapper {
+    margin-right: 24px;
+}
+
+.client__img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-right: 24px;
+}
+
+.client__name {
+    color: #243e63;
+}
+
+.arrow__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrow__icon--wrapper {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #edf2f7;
+    margin: 0 24px;
+    position: relative;
+}
+
+.arrow__icon {
+    color: #6415FF;
+    font-size: 20px;
+    position: absolute;
+    top: 16px;
+}
+
+.arrow__icon--wrapper:hover {
+    cursor: not-allowed;
+}
+
+.arrow__icon--left {
+    
+    left: 16px;
+}
+
+.arrow__icon--right {
+    right: 16px;
 }
