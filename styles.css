@@ -675,3 +675,40 @@ p {
 .arrow__icon--right {
     right: 16px;
 }
+
+/*  GET STARTED  */
+
+.get-started__banner--wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.get-started__banner {
+    width: 90%;
+    max-width: 1080px;
+    height: 200px;
+    background-color: #6415FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.get-started__headline {
+    font-size: 28px;
+    color: #fff;
+    margin: 0 24px;
+    max-width: 540px;
+}
+
+.get-started__btn--wrapper {
+    margin: 0 24px;
+}
+
+.get-started__btn {
+    padding: 24px 32px;
+}
+
+.get-started__btn--footer {
+
+}
