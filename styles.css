@@ -776,13 +776,19 @@ p {
     margin: 8px 0;
     font-size: 12px;
     text-decoration: none;
+    transition: all 300ms ease;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #f7facf;
 }
 
 .footer__info {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 24px 64px;
+    margin: 32px 64px;
 }
 
 .footer__img--wrapper {
@@ -808,8 +814,30 @@ p {
 
 .social__icons {
     display: flex;
+    margin-right: 16px;
 }
 
 .social__icon--wrapper {
     margin-left: 16px;
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+}
+
+.social__icon {
+    position: absolute;
+    color: #6415FF;
+    left: 3px;
+    top: 4px;
+}
+
+.social__icon--facebook {
+    left: 7px;
+}
+
+.social__icon--x {
+    left: 6px;
 }
