@@ -841,3 +841,14 @@ p {
 .social__icon--x {
     left: 6px;
 }
+
+
+@media (max-width: 768px) {
+    .section__title--description {
+        font-size: 36px;
+    }
+
+    .p {
+        font-size: 14px;
+    }
+}
