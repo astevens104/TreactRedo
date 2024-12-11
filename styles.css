@@ -32,7 +32,7 @@ h1 {
     font-weight: bold;
 }
 
-.h3 {
+h3 {
     color: #6415FF;
 }
 
@@ -171,7 +171,9 @@ p {
 
 .corp-list__para {
     margin-top: 16px;
+    padding: 8px;
     color: #a0aec0;
+    font-size: 16px;
 }
 
 .corp-list__img--wrapper {
@@ -710,7 +712,7 @@ p {
     border-radius: 9999px;
     border: none;
     font-size: 16px;
-    margin: 0 16px;
+    margin: 8px 16px;
 }
 
 .get-started__btn--footer {
@@ -754,11 +756,12 @@ p {
     width: 100%;
 }
 
-.links__container {
+.link__container {
     display: flex;
     flex-direction: column;
     width: calc(100% / 5);
     padding: 0 64px;
+    margin-top: 16px;
 }
 
 .link__heading,
@@ -844,11 +847,21 @@ p {
 
 
 @media (max-width: 768px) {
+
+    .row {
+        max-width: 600px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
     .section__title--description {
         font-size: 36px;
     }
-
-    .p {
-        font-size: 14px;
+    
+    .link__container {
+        width: 50%;
     }
+    
 }
